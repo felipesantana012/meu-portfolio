@@ -1,0 +1,9 @@
+main{
+    margin: 0 auto;
+    width: 90%;
+}
+
+body{
+    color: var(--cor-fonte-secundaria);
+    background-image: var(--cor-background-principal);
+}

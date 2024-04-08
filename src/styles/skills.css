@@ -1,0 +1,63 @@
+#skills-hobbies{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--cor-fonte-secundaria);
+}
+
+.skill-hobbie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.skill-hobbie h2{
+    font-family: var(--fonte-titulo); 
+    font-size: 2.3rem; 
+    background-image: var(--gradient-titulo);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.skill-hobbie ul{
+    padding: 1rem;
+    list-style-type: none;
+    display: grid;
+    max-width: 1000px;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding-bottom: 3rem;
+}
+
+.skill-hobbie ul li{
+   background-image: var(--cor-background-terceraria);
+   width: 200px;
+   height: 160px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-radius: 20px;
+   border-bottom: 2px solid var(--cor-fonte-hover-branco);
+   gap: 0.5rem;
+   box-shadow: 1px 1px 10px 2px rgb(58, 58, 58); 
+   color: var(--cor-fonte-principal);
+   transition-duration: 0.5s;
+}
+
+.skill-hobbie ul li:hover{
+    box-shadow: 1px 1px 10px 2px rgb(0, 0, 0);
+}
+
+
+.skill-hobbie ul li i{
+    font-size: 2.5rem;  
+}
+
+.skill-hobbie ul li i:hover{
+    font-size: 2.7rem;  
+}

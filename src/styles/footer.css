@@ -1,0 +1,27 @@
+.rodape{
+    background-image: var(--cor-background-secundaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    gap: 0.5rem;
+}
+
+.rodape__texto{
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: var(--fonte-titulo); 
+    background-image: var(--gradient-titulo);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.rodape__imagem-links{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.rodape__imagem-img{
+    max-width: 50px;
+}

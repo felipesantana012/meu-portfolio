@@ -1,0 +1,19 @@
+:root{
+    /* Fontes */
+    --fonte-textos: 'Poppins', sans-serif;
+    --fonte-titulo: 'Merriweather', sans-serif;
+    --cor-fonte-principal: #ffffffe5;
+    --cor-fonte-secundaria: #050404af;
+    --cor-fonte-hover: #2c9b35;
+    --cor-fonte-hover-branco:rgb(255, 255, 255);
+    --cor-fonte-houver-preto:black;
+
+    /* Cores */
+    --cor-background-principal:linear-gradient(120deg, #f1fce7 , #f1ffe9d0 , #d5eed9);
+    --cor-background-secundaria: linear-gradient(120deg, #ffffff , #aad197d0 , #012706);
+    --cor-background-terceraria: linear-gradient(70deg, #303331 , #071302 , #08330f);
+
+    --gradient-titulo: linear-gradient(to right, rgb(40, 56, 46), rgb(33, 85, 26), rgb(7, 63, 5));
+
+    
+}
