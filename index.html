@@ -252,8 +252,10 @@
                         <h3>Primeiro Portifolio</h3>
                         <p>Challenge Oracle</p>
                         <div class="projetos__projeto-btns">
-                            <button class="projeto-btn btn-repositorio">Repositorio</button>
-                            <button class="projeto-btn btn-demo">Ver Demo</button>
+                            <a href="https://github.com/felipesantana012/meu-portfolio" target="_blank"><button
+                                class="projeto-btn btn-repositorio">Repositorio</button></a>
+                        <a href="https://meu-portfolio-delta-rose.vercel.app/" target="_blank"><button
+                                class="projeto-btn btn-demo">Ver Demo</button></a>
                         </div>
                     </div>
                 </div>
@@ -350,28 +352,33 @@
                     </div>
                     
 
-                    <form action="" class="contato__form">
+                    <form action="https://api.staticforms.xyz/submit" method="post"  class="contato__form">
+
                         <div class="contato__input">
                             <label for="nome">Nome: </label>
-                            <input type="text" id="nome" placeholder="Insira seu nome">
+                            <input type="text" id="nome" name="$Nome" placeholder="Insira seu nome">
                         </div>
 
                         <div class="contato__input">
                             <label for="email">E-mail: </label>
-                            <input type="email" id="email" placeholder="Insira seu email">
+                            <input type="email" id="email" name="$Email" placeholder="Insira seu email">
                         </div>
 
                         <div class="contato__input">
                             <label for="assunto">Assunto: </label>
-                            <input type="text" id="assunto" placeholder="Insira o assunto">
+                            <input type="text" id="assunto" name="$Assunto" placeholder="Insira o assunto">
                         </div>
 
                         <div class="contato__input">
                             <label for="menssagem">Menssagem: </label>
-                            <textarea placeholder="Insira sua Menssagem" id="menssagem" cols="30" rows="10"></textarea>
+                            <textarea placeholder="Insira sua Menssagem" name="$Menssagem" id="menssagem" cols="30" rows="10"></textarea>
                         </div>
 
-                        <button class="contato__btn">Enviar Menssagem</button>
+                        <button class="contato__btn" type="submit">Enviar Menssagem</button>
+
+                        <input type="hidden" name="accessKey" value="1f80f64b-99e8-4243-9a3d-b8093abe0007">
+                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/menssagemEnviada.html">
+                        <input type="text" name="honeypot" style="display: none;">
                     </form>
                 </div>
             </section>
