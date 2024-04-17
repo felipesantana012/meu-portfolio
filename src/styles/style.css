@@ -7,3 +7,16 @@ body{
     color: var(--cor-fonte-secundaria);
     background-image: var(--cor-background-principal);
 }
+
+#btnVoltarTopo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 1;
+    color: var(--cor-fonte-principal);
+    border: 2px solid var(--cor-fonte-hover);
+    background-color: var(--cor-fonte-hover);
+    width: 40px;
+    height: 30px;
+}
