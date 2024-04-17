@@ -15,10 +15,15 @@
     
 }
 
+.cabecalho__link-icone{
+    display: none;
+    
+}
+
 .cabecalho__links{
     display: flex;
     list-style-type: none;
-    gap: 1.5rem; 
+    gap: 1rem; 
 }
 
 .cabecalho__link{
@@ -27,9 +32,30 @@
     font-family: var(--fonte-titulo);
     font-weight: 600;
     font-size: 1rem;
+    filter: drop-shadow(2px 2px 2px black);
 }
 
 .cabecalho__link:hover{
     border-bottom: 2px solid var(--cor-fonte-hover);
     border-radius: 5px;
+}
+
+@media screen and (max-width:900px) {
+
+    .cabecalho__link-icone{
+        display: block;
+        font-family: var(--fonte-titulo);
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: var(--cor-fonte-principal);
+        filter: drop-shadow(2px 2px 2px black);
+        
+    }
+
+   
+
+    .cabecalho__link{
+        display: none;
+    }
+
 }

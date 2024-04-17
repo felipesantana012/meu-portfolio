@@ -1,5 +1,4 @@
 #skills-hobbies{
-    padding: 4rem;
     display: flex;
     flex-direction: column;
     color: var(--cor-fonte-secundaria);
@@ -31,12 +30,12 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
     padding-bottom: 3rem;
+    
 }
 
 .skill-hobbie ul li{
    background-image: var(--cor-background-terceraria);
-   width: 200px;
-   height: 160px;
+   height: 100px;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -60,4 +59,9 @@
 
 .skill-hobbie ul li i:hover{
     font-size: 2.7rem;  
+}
+
+@media screen and (max-width:900px) {
+
+   
 }

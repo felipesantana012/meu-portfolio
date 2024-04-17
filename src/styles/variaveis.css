@@ -15,5 +15,7 @@
 
     --gradient-titulo: linear-gradient(to right, rgb(40, 56, 46), rgb(33, 85, 26), rgb(7, 63, 5));
 
+    --gradient-icone: linear-gradient( rgb(1, 131, 18), rgb(56, 175, 40));
+
     
 }

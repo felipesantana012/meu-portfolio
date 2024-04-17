@@ -22,6 +22,17 @@
     gap: 2rem;
 }
 
-.rodape__imagem-img{
-    max-width: 50px;
+.contato__imagem-img{
+    width: 50px;
+}
+
+@media screen and (max-width:650px) {
+
+    .rodape__texto{
+        font-size: 0.6rem;
+    }
+    .contato__imagem-img{
+        width: 40px;
+    }
+    
 }

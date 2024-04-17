@@ -7,7 +7,7 @@
 }
 
 .contato__imagem{
-    max-width: 40%;
+    max-width: 50%;
 
 }
 
@@ -85,3 +85,20 @@
     cursor: pointer;
 }
 
+
+@media screen and (max-width:650px) {
+
+    #contato{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .contato__formulario{
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .contato__texto h2, .contato__texto p{
+        text-align: center;
+    }
+}
