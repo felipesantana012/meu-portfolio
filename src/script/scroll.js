@@ -29,11 +29,26 @@ $(document).ready(function(){
         });
     }
 
-    //percorrer o array com as tags e depois chamar a função
-    const seletores = ['#sobre-mim','#skills-hobbies','#formacao','.projetos__projeto', '#contato']
-    for (const key in seletores) {
-        revelarElementoTop(seletores[key]);
+    function revelarElementoBottom(seletor) {
+        ScrollReveal().reveal(seletor, {
+            origin: 'bottom',
+            duration: '2000',
+            distance: '20%'
+        });
     }
+
+
+    //percorrer o array com as tags e depois chamar a função
+    const seletoresTop = ['#sobre-mim','.projetos__projeto', '#contato']
+    for (const key in seletoresTop) {
+        revelarElementoTop(seletoresTop[key]);
+    }
+
+    const seletorresBottom = ['#skills-hobbies','#formacao']
+    for (const key in seletorresBottom) {
+        revelarElementoBottom(seletorresBottom[key]);
+    }
+
 
 });
 
