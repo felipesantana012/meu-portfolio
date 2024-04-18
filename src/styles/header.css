@@ -46,13 +46,11 @@
         display: block;
         font-family: var(--fonte-titulo);
         font-weight: 600;
-        font-size: 1.5rem;
-        color: var(--cor-fonte-principal);
-        filter: drop-shadow(2px 2px 2px black);
+        font-size: 1.7rem;
+        color: rgba(51, 255, 75, 0.637);
+        filter: drop-shadow(1px 5px 1px rgb(18, 58, 26));
         
     }
-
-   
 
     .cabecalho__link{
         display: none;

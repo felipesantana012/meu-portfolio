@@ -41,6 +41,19 @@
    
 }
 
+#formacao ul li:nth-child(1){
+    order: 4;
+}
+
+#formacao ul li:nth-child(2){
+    order: 5;
+}
+
+#formacao ul li:nth-child(3){
+    order: 6;
+}
+
+
 .formacao-imagem{
     margin: 1rem;
     border-radius: 20%;

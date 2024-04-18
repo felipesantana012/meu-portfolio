@@ -21,34 +21,24 @@ $(document).ready(function(){
 
 
   //função para elementos aparecer apartir do topo da tela
-    function revelarElementoTop(seletor) {
+    function revelarElemento(seletor,posicao) {
         ScrollReveal().reveal(seletor, {
-            origin: 'top',
+            origin: posicao,
             duration: '2000',
             distance: '20%'
         });
     }
-
-    function revelarElementoBottom(seletor) {
-        ScrollReveal().reveal(seletor, {
-            origin: 'bottom',
-            duration: '2000',
-            distance: '20%'
-        });
-    }
-
 
     //percorrer o array com as tags e depois chamar a função
-    const seletoresTop = ['#sobre-mim','.projetos__projeto', '#contato']
+    const seletoresTop = ['#sobre-mim','.projetos__projeto']
     for (const key in seletoresTop) {
-        revelarElementoTop(seletoresTop[key]);
+        revelarElemento(seletoresTop[key],'top');
     }
 
-    const seletorresBottom = ['#skills-hobbies','#formacao']
+    const seletorresBottom = ['#formacao ul li','.skill-hobbie ul li','.sobre-mim__img', '#contato']
     for (const key in seletorresBottom) {
-        revelarElementoBottom(seletorresBottom[key]);
+        revelarElemento(seletorresBottom[key],'Bottom');
     }
-
 
 });
 

@@ -29,6 +29,7 @@
     -webkit-background-clip: text;
     color: transparent;
     padding-bottom: 0.5rem;
+    text-align: center;
 }
 
 .sobre-mim__titulo__texto__links h3 {
@@ -44,6 +45,7 @@
     font-weight: 400;
     font-size: 1.15rem;
     color: var(--cor-fonte-secundaria);
+    text-align: justify;
 }
 
 .sobre-mim__titulo__texto__links ul {
