@@ -46,7 +46,7 @@
 .projetos__projeto-btns{
     display: flex;
     flex-direction: row; 
-    justify-content:space-evenly ;
+    gap: 10px;
 }
 
 .projeto-btn{
@@ -54,6 +54,7 @@
     font-size: 1rem;
     font-weight: 400;
     cursor: pointer;
+    text-decoration: none;
     
 }
 
@@ -106,6 +107,7 @@
     .projetos__projeto-btns{
         flex-direction: row; 
         gap: 5px;
+        justify-content: center;
         
     }
 

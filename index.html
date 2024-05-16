@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
-    <link rel="icon" href="/src/imgs/logo_dev.png" type="image/png" >
+    <link rel="icon" href="/src/imgs/logo_dev.png" type="image/png">
 
     <!-- meus links -->
     <link rel="stylesheet" href="src/styles/imports.css">
@@ -17,419 +17,448 @@
 
     <!-- link script para ter acesso a os scroll de elementos da pagina -->
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 
 </head>
 
 <body>
 
-        <header class="cabecalho">
-            <div class="cabecalho__logo">
-                <a href="/"> <img src="/src/imgs/logo_dev.png" alt="Logo desenvolvedor"></a>
+    <header class="cabecalho">
+        <div class="cabecalho__logo">
+            <a href="/"> <img src="/src/imgs/logo_dev.png" alt="Logo desenvolvedor"></a>
+        </div>
+
+
+        <ul class="cabecalho__links">
+
+            <li>
+                <a href="#formacao" class="cabecalho__link">Formação</a>
+            </li>
+
+            <li>
+                <a href="#contato" class="cabecalho__link">Contato</a>
+            </li>
+
+            <li>
+                <a href="#sobre-mim" class="cabecalho__link">Sobre Mim</a>
+            </li>
+
+            <li>
+                <a href="#skills-hobbies" class="cabecalho__link">Skills & Hobbies</a>
+            </li>
+
+            <li>
+                <a href="#projetos" class="cabecalho__link">Projetos</a>
+            </li>
+
+            <li>
+                <a href="#contato" class="cabecalho__link-icone"><i
+                        class="fa-solid fa-envelope-circle-check"></i></i></a>
+            </li>
+
+        </ul>
+    </header>
+
+    <main>
+
+        <button id="btnVoltarTopo"><i class="fa-solid fa-arrow-up"></i></button>
+
+        <section id="sobre-mim">
+
+            <div class="sobre-mim__apresentacao">
+
+                <div class="sobre-mim__titulo__texto__links">
+                    <h2>Olá, meu nome é Felipe Santana, sou desenvolvedor web Full-Stack</h2>
+                    <h3>Sobre Mim</h3>
+                    <p>Sou um profissional dedicado e apaixonado por tecnologia, com formação técnica em Informática
+                        para Internet pelo IFPE e atualmente cursando ensino superior em Análise e Desenvolvimento de
+                        Sistemas na mesma instituição. Estou envolvido em três programas de ensino para o
+                        desenvolvimento web. <a href="#formacao">Clica aqui</a> para verificá-las.</p>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/felipesantana012" target="_blank"><span>GitHub</span><i
+                                    class="fa-brands fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/in/felipesantana012" target="_blank"><span>Linkedin</span><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/5581988742454?text=Ola%20Felipe!"
+                                target="_blank"><span>Whatsapp</span><i class="fa-brands fa-whatsapp"></i></a>
+                        </li>
+                        <li>
+                            <a href="/src/arquivos/Felipe Santana Dev (Curriculo).pdf"
+                                download="Felipe_Santana_Dev.pdf"><span>Currículo</span><i
+                                    class="fa-regular fa-file-pdf"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="sobre-mim__img">
+                    <img src="/src/imgs/foto-perfil.jpg" alt="foto de perfil">
+                </div>
+
             </div>
 
 
-            <ul class="cabecalho__links">
+        </section>
 
-                <li>
-                    <a href="#formacao" class="cabecalho__link">Formação</a>
-                </li>
+        <section id="skills-hobbies">
 
-                <li>
-                    <a href="#contato" class="cabecalho__link">Contato</a>
-                </li>
+            <div class="skill-hobbie">
+                <h2>Principais Skills</h2>
+                <ul>
+                    <li>
+                        <i class="fa-brands fa-html5"></i>
+                        <p>Html</p>
+                    </li>
 
-                <li>
-                    <a href="#sobre-mim" class="cabecalho__link">Sobre Mim</a>
-                </li>
+                    <li>
+                        <i class="fa-brands fa-js"></i>
+                        <p>Java Script</p>
+                    </li>
 
-                <li>
-                    <a href="#skills-hobbies" class="cabecalho__link">Skills & Hobbies</a>
-                </li>
+                    <li>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <p>CSS</p>
+                    </li>
 
-                <li>
-                    <a href="#projetos" class="cabecalho__link">Projetos</a>
-                </li>
+                    <li>
+                        <i class="fa-brands fa-node"></i>
+                        <p>NodeJs</p>
+                    </li>
 
-                <li>
-                    <a href="#contato" class="cabecalho__link-icone"><i class="fa-solid fa-envelope-circle-check"></i></i></a>
-                </li>
-                
-            </ul>
-        </header>
+                    <li>
+                        <i class="fa-brands fa-java"></i>
+                        <p>Java</p>
+                    </li>
 
-        <main>
-            <button id="btnVoltarTopo" ><i class="fa-solid fa-arrow-up"></i></button>
+                    <li>
+                        <i class="fa-brands fa-python"></i>
+                        <p>Python</p>
+                    </li>
 
-            <section id="sobre-mim">
+                    <li>
+                        <i class="fa-solid fa-database"></i>
+                        <p>SQL</p>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-react"></i>
+                        <p>React</p>
+                    </li>
+                </ul>
+            </div>
 
-                <div class="sobre-mim__apresentacao">
+            <div class="skill-hobbie">
 
-                    <div class="sobre-mim__titulo__texto__links">
-                        <h2>Olá, meu nome é Felipe Santana, sou desenvolvedor web Full-Stack</h2>
-                        <h3>Sobre Mim</h3>
-                        <p>Sou um profissional dedicado e apaixonado por tecnologia, com formação técnica em Informática
-                            para Internet pelo IFPE e atualmente cursando ensino superior em Análise e Desenvolvimento de
-                            Sistemas na mesma instituição. Estou envolvido em três programas de ensino para o desenvolvimento web. <a href="#formacao">Clica aqui</a> para verificá-las.</p>
-                        <ul>
-                            <li>
-                                <a href="https://github.com/felipesantana012" target="_blank"><span>GitHub</span><i class="fa-brands fa-github"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://linkedin.com/in/felipesantana012" target="_blank"><span>Linkedin</span><i class="fa-brands fa-linkedin-in"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://wa.me/5581988742454?text=Ola%20Felipe!" target="_blank"><span>Whatsapp</span><i class="fa-brands fa-whatsapp"></i></a>
-                            </li>
-                            <li>
-                                <a href="/src/arquivos/Felipe Santana Dev (Curriculo).pdf" download="Felipe_Santana_Dev.pdf"><span>Currículo</span><i class="fa-regular fa-file-pdf"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="sobre-mim__img">
-                        <img src="/src/imgs/foto-perfil.jpg" alt="foto de perfil">
-                    </div>
-
-                </div>
-
-
-            </section>
-
-            <section id="skills-hobbies">
-
-                <div class="skill-hobbie">
-                    <h2>Principais Skills</h2>
-                    <ul>
-                        <li>
-                            <i class="fa-brands fa-html5"></i>
-                            <p>Html</p>
-                        </li>
-
-                        <li>
-                            <i class="fa-brands fa-js"></i>
-                            <p>Java Script</p>
-                        </li>
-
-                        <li>
-                            <i class="fa-brands fa-css3-alt"></i>
-                            <p>CSS</p>
-                        </li>
-
-                        <li>
-                            <i class="fa-brands fa-node"></i>
-                            <p>NodeJs</p>
-                        </li>
-
-                        <li>
-                            <i class="fa-brands fa-java"></i>
-                            <p>Java</p>
-                        </li>
-
-                        <li>
-                            <i class="fa-brands fa-python"></i>
-                            <p>Python</p>
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-database"></i>
-                            <p>SQL</p>
-                        </li>
-                        <li>
-                            <i class="fa-brands fa-react"></i>
-                            <p>React</p>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="skill-hobbie">
-
-                    <h2>Principais Hobbies</h2>
-
-                    <ul>
-                        <li>
-                            <i class="fa-solid fa-futbol"></i>
-                            <p>Jogar Futebol</p>
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-gamepad"></i>
-                            <p>Jogar Fifa</p>
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-music"></i>
-                            <p>Ouvir Musica</p>
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-dog"></i>
-                            <p>Brincar Dog</p>
-                        </li>
-                    </ul>
-                </div>
-
-            </section>
-
-            <section id="formacao">
-                <h2>Formação Academica</h2>
+                <h2>Principais Hobbies</h2>
 
                 <ul>
                     <li>
-                        <a href="https://portal.ifpe.edu.br/jaboatao/ " target="_blank">
-                            <div class="formacao-imagem">
-                                <img src="/src/imgs/img-ifpe.png" alt="Logo do IFPE">
-                            </div>
-                        </a>
-
-                        <div class="formacao__texto">
-                            <p>Tecnico Informática para Internet</p>
-                            <span>2020 - IFPE</span>
-                        </div>
+                        <i class="fa-solid fa-futbol"></i>
+                        <p>Jogar Futebol</p>
                     </li>
 
                     <li>
-                        <a href="https://www.redecidada.org.br/projetos/projeto-start/" target="_blank">
-                            <div class="formacao-imagem">
-                                <img src="/src/imgs/start-rede-cidada.png" alt="Logo start rede cidadã">
-                            </div>
-                        </a>
-                        <div class="formacao__texto">
-                            <p>Programa Start recife</p>
-                            <span>2023 - Rede cidadã</span>
-                        </div>
+                        <i class="fa-solid fa-gamepad"></i>
+                        <p>Jogar Fifa</p>
                     </li>
 
                     <li>
-                        <a href="https://portal.ifpe.edu.br/jaboatao/ " target="_blank">
-                            <div class="formacao-imagem">
-                                <img src="/src/imgs/img-ifpe.png" alt="Logo do IFPE">
-                            </div>
-                        </a>
-                        <div class="formacao__texto">
-                            <p>Análise e Desenvolvimento de Sistemas</p>
-                            <span>2026 - IFPE</span>
-                        </div>
+                        <i class="fa-solid fa-music"></i>
+                        <p>Ouvir Musica</p>
                     </li>
 
                     <li>
-                        <a href="https://desenvolve.grupoboticario.com.br/" target="_blank">
-                            <div class="formacao-imagem">
-                                <img src="/src/imgs/boticario.png" alt="Logo boticario">
-                            </div>
-                        </a>
-                        <div class="formacao__texto">
-                            <p>Programa Desenvolve</p>
-                            <span>2024 - Grupo Boticario + Alura</span>
-                        </div>
+                        <i class="fa-solid fa-dog"></i>
+                        <p>Brincar Dog</p>
                     </li>
-
-                    <li>
-                        <a href="https://www.oracle.com/br/education/oracle-next-education/" target="_blank">
-                            <div class="formacao-imagem">
-                                <img src="/src/imgs/oracle.png" alt="Logo oracle">
-                            </div>
-                        </a>
-                        <div class="formacao__texto">
-                            <p>Oracle next Education - T6</p>
-                            <span>2024 - Oracle + Alura</span>
-                        </div>
-                    </li>
-
-                    <li>
-                        <a href="https://www.maisprati.com.br/trilhas/" target="_blank">
-                            <div class="formacao-imagem">
-                                <img src="/src/imgs/praiTi.png" alt="Logo pra ti">
-                            </div>
-                        </a>
-                        <div class="formacao__texto">
-                            <p>Programa MaisPraTi</p>
-                            <span>2024 - PraTi + Codifica</span>
-                        </div>
-                    </li>
-
                 </ul>
-            </section>
+            </div>
 
-            <section id="projetos">
-                <div class="projetos__titulo">
-                    <h2>Projetos Pessoais</h2>
+        </section>
+
+        <section id="formacao">
+            <h2>Formação Academica</h2>
+
+            <ul>
+                <li>
+                    <a href="https://portal.ifpe.edu.br/jaboatao/ " target="_blank">
+                        <div class="formacao-imagem">
+                            <img src="/src/imgs/img-ifpe.png" alt="Logo do IFPE">
+                        </div>
+                    </a>
+
+                    <div class="formacao__texto">
+                        <p>Tecnico Informática para Internet</p>
+                        <span>2020 - IFPE</span>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="https://www.redecidada.org.br/projetos/projeto-start/" target="_blank">
+                        <div class="formacao-imagem">
+                            <img src="/src/imgs/start-rede-cidada.png" alt="Logo start rede cidadã">
+                        </div>
+                    </a>
+                    <div class="formacao__texto">
+                        <p>Programa Start recife</p>
+                        <span>2023 - Rede cidadã</span>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="https://portal.ifpe.edu.br/jaboatao/ " target="_blank">
+                        <div class="formacao-imagem">
+                            <img src="/src/imgs/img-ifpe.png" alt="Logo do IFPE">
+                        </div>
+                    </a>
+                    <div class="formacao__texto">
+                        <p>Análise e Desenvolvimento de Sistemas</p>
+                        <span>2026 - IFPE</span>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="https://desenvolve.grupoboticario.com.br/" target="_blank">
+                        <div class="formacao-imagem">
+                            <img src="/src/imgs/boticario.png" alt="Logo boticario">
+                        </div>
+                    </a>
+                    <div class="formacao__texto">
+                        <p>Programa Desenvolve</p>
+                        <span>2024 - Grupo Boticario + Alura</span>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="https://www.oracle.com/br/education/oracle-next-education/" target="_blank">
+                        <div class="formacao-imagem">
+                            <img src="/src/imgs/oracle.png" alt="Logo oracle">
+                        </div>
+                    </a>
+                    <div class="formacao__texto">
+                        <p>Oracle next Education - T6</p>
+                        <span>2024 - Oracle + Alura</span>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="https://www.maisprati.com.br/trilhas/" target="_blank">
+                        <div class="formacao-imagem">
+                            <img src="/src/imgs/praiTi.png" alt="Logo pra ti">
+                        </div>
+                    </a>
+                    <div class="formacao__texto">
+                        <p>Programa MaisPraTi</p>
+                        <span>2024 - PraTi + Codifica</span>
+                    </div>
+                </li>
+
+            </ul>
+        </section>
+
+        <section id="projetos">
+            <div class="projetos__titulo">
+                <h2>Projetos Pessoais</h2>
+            </div>
+
+
+            <div class="projetos__projeto row-reverse">
+
+                <div class="projetos__projeto-img">
+                    <img src="/src/imgs/Imgem Mania Burguer.png" alt="Mania Burguer">
                 </div>
 
-                <div class="projetos__projeto">
-
-                    <div class="projetos__projeto-img">
-                        <img src="/src/imgs/Macbook-Air-127.0.0.1 (1).png" alt="imagem Portifolio">
+                <div class="projetos__projeto-textos">
+                    <h3>Mania Burguer</h3>
+                    <p>Projeto Pessoal (Responsivo)</p>
+                    <div class="projetos__projeto-btns">
+                        <a href="https://github.com/felipesantana012/mania-food" target="_blank"><button
+                                class="projeto-btn btn-repositorio">Repositorio</button></a>
+                        <a href="https://mania-burguer.vercel.app/" target="_blank"><button
+                                class="projeto-btn btn-demo">Ver Demo</button></a>
                     </div>
+                </div>
 
-                    <div class="projetos__projeto-textos">
-                        <h3>Primeiro Portifolio</h3>
-                        <p>Projeto Portifolio Pessoal (Responsivo)</p>
-                        <div class="projetos__projeto-btns">
-                            <a href="https://github.com/felipesantana012/meu-portfolio" target="_blank"><button
+            </div>
+
+            <div class="projetos__projeto">
+
+                <div class="projetos__projeto-img">
+                    <img src="/src/imgs/Macbook-Air-127.0.0.1 (1).png" alt="imagem Portifolio">
+                </div>
+
+                <div class="projetos__projeto-textos">
+                    <h3>Primeiro Portifolio</h3>
+                    <p>Projeto Portifolio Pessoal (Responsivo)</p>
+                    <div class="projetos__projeto-btns">
+                        <a href="https://github.com/felipesantana012/meu-portfolio" target="_blank"><button
                                 class="projeto-btn btn-repositorio">Repositorio</button></a>
                         <a href="https://meu-portfolio-delta-rose.vercel.app/" target="_blank"><button
                                 class="projeto-btn btn-demo">Ver Demo</button></a>
-                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projetos__projeto row-reverse">
+
+                <div class="projetos__projeto-img">
+                    <img src="/src/imgs/Macbook-Air-cardapio-digital-rouge.vercel.app.png"
+                        alt="imagem cardapio digital">
+                </div>
+
+                <div class="projetos__projeto-textos">
+                    <h3>Cardapio Digital</h3>
+                    <p>Projeto Pessoal (Responsivo)</p>
+                    <div class="projetos__projeto-btns">
+                        <a href="https://github.com/felipesantana012/cardapio-digital" target="_blank" class="projeto-btn btn-repositorio">Repositorio</a>
+                        <a href="https://cardapio-digital-rouge.vercel.app/" target="_blank" class="projeto-btn btn-demo">Ver Demo</a>
                     </div>
                 </div>
 
-                <div class="projetos__projeto row-reverse">
+            </div>
 
-                    <div class="projetos__projeto-img">
-                        <img src="/src/imgs/Macbook-Air-cardapio-digital-rouge.vercel.app.png"
-                            alt="imagem cardapio digital">
-                    </div>
+            <div class="projetos__projeto">
 
-                    <div class="projetos__projeto-textos">
-                        <h3>Cardapio Digital</h3>
-                        <p>Projeto Pessoal (Responsivo)</p>
-                        <div class="projetos__projeto-btns">
-                            <a href="https://github.com/felipesantana012/cardapio-digital" target="_blank"><button
-                                    class="projeto-btn btn-repositorio">Repositorio</button></a>
-                            <a href="https://cardapio-digital-rouge.vercel.app/" target="_blank"><button
-                                    class="projeto-btn btn-demo">Ver Demo</button></a>
-                        </div>
-                    </div>
-
+                <div class="projetos__projeto-img">
+                    <img src="/src/imgs/Macbook-Air-jogo-lampada.vercel.app.png" alt="imagem jogo da lampada">
                 </div>
 
-                <div class="projetos__projeto">
-
-                    <div class="projetos__projeto-img">
-                        <img src="/src/imgs/Macbook-Air-jogo-lampada.vercel.app.png" alt="imagem jogo da lampada">
-                    </div>
-
-                    <div class="projetos__projeto-textos">
-                        <h3>Desafio da Lampada</h3>
-                        <p>Desafio de Estagio (Responsivo)</p>
-                        <div class="projetos__projeto-btns">
-                            <a href="https://github.com/felipesantana012/jogo-lampada" target="_blank"><button
-                                    class="projeto-btn btn-repositorio">Repositorio</button></a>
-                            <a href="https://jogo-lampada.vercel.app/" target="_blank"><button
-                                    class="projeto-btn btn-demo">Ver Demo</button></a>
-                        </div>
+                <div class="projetos__projeto-textos">
+                    <h3>Desafio da Lampada</h3>
+                    <p>Desafio de Estagio (Responsivo)</p>
+                    <div class="projetos__projeto-btns">
+                        <a href="https://github.com/felipesantana012/jogo-lampada" target="_blank"><button
+                                class="projeto-btn btn-repositorio">Repositorio</button></a>
+                        <a href="https://jogo-lampada.vercel.app/" target="_blank"><button
+                                class="projeto-btn btn-demo">Ver Demo</button></a>
                     </div>
                 </div>
+            </div>
 
-                <div class="projetos__projeto row-reverse">
+            <div class="projetos__projeto row-reverse">
 
-                    <div class="projetos__projeto-img">
-                        <img src="/src/imgs/Macbook-Air-biblioteca-front-eight.vercel.app.png"
-                            alt="imagem biblioteca digital">
-                    </div>
-
-                    <div class="projetos__projeto-textos">
-                        <h3>Biblioteca</h3>
-                        <p>Projeto boticario + Alura (Responsivo)</p>
-                        <div class="projetos__projeto-btns">
-                            <a href="https://github.com/felipesantana012/biblioteca-front" target="_blank"><button
-                                    class="projeto-btn btn-repositorio">Repositorio</button></a>
-                            <a href="https://biblioteca-front-eight.vercel.app/" target="_blank"><button
-                                    class="projeto-btn btn-demo">Ver Demo</button></a>
-                        </div>
-                    </div>
-
+                <div class="projetos__projeto-img">
+                    <img src="/src/imgs/Macbook-Air-biblioteca-front-eight.vercel.app.png"
+                        alt="imagem biblioteca digital">
                 </div>
 
-                <div class="projetos__projeto">
-
-                    <div class="projetos__projeto-img">
-                        <img src="/src/imgs/Macbook-Air-pokemon-eight-bice.vercel.app.png" alt="imagem api busca pokemon">
-                    </div>
-
-                    <div class="projetos__projeto-textos">
-                        <h3>API buscar e filtra Pokemons</h3>
-                        <p>Primeiro projeto Angular</p>
-                        <div class="projetos__projeto-btns">
-                            <a href="https://github.com/felipesantana012/Pokemon" target="_blank"><button
-                                    class="projeto-btn btn-repositorio">Repositorio</button></a>
-                            <a href="https://pokemon-eight-bice.vercel.app/" target="_blank"><button
-                                    class="projeto-btn btn-demo">Ver Demo</button></a>
-                        </div>
+                <div class="projetos__projeto-textos">
+                    <h3>Biblioteca</h3>
+                    <p>Projeto boticario + Alura (Responsivo)</p>
+                    <div class="projetos__projeto-btns">
+                        <a href="https://github.com/felipesantana012/biblioteca-front" target="_blank"><button
+                                class="projeto-btn btn-repositorio">Repositorio</button></a>
+                        <a href="https://biblioteca-front-eight.vercel.app/" target="_blank"><button
+                                class="projeto-btn btn-demo">Ver Demo</button></a>
                     </div>
                 </div>
 
-            </section>
+            </div>
 
-            <section id="contato">
+            <div class="projetos__projeto">
 
-                <div class="contato__imagem">
-                    <img src="/src/imgs/contato-removebg-preview.png" alt="imagem de icones de contato">
+                <div class="projetos__projeto-img">
+                    <img src="/src/imgs/Macbook-Air-pokemon-eight-bice.vercel.app.png" alt="imagem api busca pokemon">
                 </div>
 
-                <div class="contato__formulario">
-
-                    <div class="contato__texto">
-                        <h2>Entre em Contato</h2>
-                        <p>Quer entrar em contato comigo? Preencha o formulário e Responderei o mais rápido possível.</p>
+                <div class="projetos__projeto-textos">
+                    <h3>API buscar e filtra Pokemons</h3>
+                    <p>Primeiro projeto Angular</p>
+                    <div class="projetos__projeto-btns">
+                        <a href="https://github.com/felipesantana012/Pokemon" target="_blank"><button
+                                class="projeto-btn btn-repositorio">Repositorio</button></a>
+                        <a href="https://pokemon-eight-bice.vercel.app/" target="_blank"><button
+                                class="projeto-btn btn-demo">Ver Demo</button></a>
                     </div>
-                    
-
-                    <form action="https://api.staticforms.xyz/submit" method="post"  class="contato__form">
-
-                        <div class="contato__input">
-                            <label for="nome">Nome: </label>
-                            <input type="text" id="nome" name="$Nome" placeholder="Insira seu nome" required>
-                        </div>
-
-                        <div class="contato__input">
-                            <label for="email">E-mail: </label>
-                            <input type="email" id="email" name="$Email" placeholder="Insira seu email" required>
-                        </div>
-
-                        <div class="contato__input">
-                            <label for="assunto">Assunto: </label>
-                            <input type="text" id="assunto" name="$Assunto" placeholder="Insira o assunto" required>
-                        </div>
-
-                        <div class="contato__input">
-                            <label for="menssagem">Menssagem: </label>
-                            <textarea placeholder="Insira sua Menssagem" name="$Menssagem" id="menssagem" cols="30" rows="10" required></textarea>
-                        </div>
-
-                        <button class="contato__btn" type="submit">Enviar Menssagem</button>
-
-                        <input type="hidden" name="accessKey" value="1f80f64b-99e8-4243-9a3d-b8093abe0007">
-                        <input type="hidden" name="redirectTo" value="https://pagina-mensagem-email.vercel.app/">
-                        <input type="text" name="honeypot" style="display: none;">
-                    </form>
                 </div>
-            </section>
+            </div>
 
-        </main>
+        </section>
 
-        <footer class="rodape">
+        <section id="contato">
 
-                <div class="rodape__texto">
-                    <h2>Desenvolvido por Felipe Santana</h2>
-                </div>
-                
-                <div class="rodape__imagem-links">
+            <div class="contato__imagem">
+                <img src="/src/imgs/contato-removebg-preview.png" alt="imagem de icones de contato">
+            </div>
 
-                    <a href="/src/arquivos/Felipe Santana Dev (Curriculo).pdf" download="Felipe_Santana_Dev.pdf">
-                        <img src="/src/imgs/logo curriculo.png" class="contato__imagem-img" alt="">
-                    </a>
+            <div class="contato__formulario">
 
-                    <a href="https://github.com/felipesantana012" target="_blank">
-                        <img src="/src/imgs/Logo Git.png" class="contato__imagem-img" alt="">
-                    </a>
-
-                    <a href="https://linkedin.com/in/felipesantana012" target="_blank">
-                        <img src="/src/imgs/Logo Linkedin.png" class="contato__imagem-img" alt="">
-                    </a>
-
-                    <a href="https://wa.me/5581988742454?text=Ola%20Felipe!" target="_blank">
-                        <img src="/src/imgs/Logo Whatsapp.png" class="contato__imagem-img" alt="">
-                    </a>
-                    
+                <div class="contato__texto">
+                    <h2>Entre em Contato</h2>
+                    <p>Quer entrar em contato comigo? Preencha o formulário e Responderei o mais rápido possível.</p>
                 </div>
 
-        </footer>
+
+                <form action="https://api.staticforms.xyz/submit" method="post" class="contato__form">
+
+                    <div class="contato__input">
+                        <label for="nome">Nome: </label>
+                        <input type="text" id="nome" name="$Nome" placeholder="Insira seu nome" required>
+                    </div>
+
+                    <div class="contato__input">
+                        <label for="email">E-mail: </label>
+                        <input type="email" id="email" name="$Email" placeholder="Insira seu email" required>
+                    </div>
+
+                    <div class="contato__input">
+                        <label for="assunto">Assunto: </label>
+                        <input type="text" id="assunto" name="$Assunto" placeholder="Insira o assunto" required>
+                    </div>
+
+                    <div class="contato__input">
+                        <label for="menssagem">Menssagem: </label>
+                        <textarea placeholder="Insira sua Menssagem" name="$Menssagem" id="menssagem" cols="30"
+                            rows="10" required></textarea>
+                    </div>
+
+                    <button class="contato__btn" type="submit">Enviar Menssagem</button>
+
+                    <input type="hidden" name="accessKey" value="1f80f64b-99e8-4243-9a3d-b8093abe0007">
+                    <input type="hidden" name="redirectTo" value="https://pagina-mensagem-email.vercel.app/">
+                    <input type="text" name="honeypot" style="display: none;">
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+
+        <div class="rodape__texto">
+            <h2>Desenvolvido por Felipe Santana</h2>
+        </div>
+
+        <div class="rodape__imagem-links">
+
+            <a href="/src/arquivos/Felipe Santana Dev (Curriculo).pdf" download="Felipe_Santana_Dev.pdf">
+                <img src="/src/imgs/logo curriculo.png" class="contato__imagem-img" alt="">
+            </a>
+
+            <a href="https://github.com/felipesantana012" target="_blank">
+                <img src="/src/imgs/Logo Git.png" class="contato__imagem-img" alt="">
+            </a>
+
+            <a href="https://linkedin.com/in/felipesantana012" target="_blank">
+                <img src="/src/imgs/Logo Linkedin.png" class="contato__imagem-img" alt="">
+            </a>
+
+            <a href="https://wa.me/5581988742454?text=Ola%20Felipe!" target="_blank">
+                <img src="/src/imgs/Logo Whatsapp.png" class="contato__imagem-img" alt="">
+            </a>
+
+        </div>
+
+    </footer>
 
 
-        <script src="src/script/scroll.js"></script>
+    <script src="src/script/scroll.js"></script>
 
 </body>
 
